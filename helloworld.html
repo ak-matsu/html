@@ -1,4 +1,3 @@
-<!-- 画像とリンク-->
 <!DOCTYPE html>
 <html lang="ja">
     <head>
@@ -21,20 +20,43 @@
     	</style>
     </head>
     <body>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+        		<div class="container">
+        			<div class="navbar-header">
+        				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        					<span class="sr-only">Toggle navigation</span>
+        					<span class="icon-bar"></span>
+        					<span class="icon-bar"></span>
+        					<span class="icon-bar"></span>
+        				</button>
+        				<a class="navbar-brand" href="#">Project Nyaan</a>
+        			</div>
+        			<div id="navbar" class="collapse navbar-collapse">
+        				<ul class="nav navbar-nav">
+        					<li class="active"><a href="#">Home</a></li>
+        					<li><a href="#list">List</a></li>
+        					<li><a href="">Table</a></li>
+        				</ul>
+        			</div>
+        		</div>
+        	</nav>
     	<div class="container">
     		<div class="starter-template">
     			<h1>吾輩は猫である。</h1>
     			<p class="lead">名前はまだない。</p>
-    			<a href="https://ja.wikipedia.org/wiki/%E5%A4%8F%E7%9B%AE%E6%BC%B1%E7%9F%B3" target="_blank"><img class="img-responsive center-block" src="https://paiza-webapp.s3.amazonaws.com/files/learning/photo_cat_1024.jpg"></a>
+    			<img class="img-responsive center-block" src="https://paiza-webapp.s3.amazonaws.com/files/learning/photo_cat_1024.jpg">
     			<p>どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。しかもあとで聞くとそれは書生という人間中で一番獰悪な種族であったそうだ。この書生というのは時々我々を捕えて煮て食うという話である。しかしその当時は何という考もなかったから別段恐しいとも思わなかった。ただ彼の掌に載せられてスーと持ち上げられた時何だかフワフワした感じがあったばかりである。
     			</p>
-    			<a class="btn btn-primary" href="http://paiza.jp/" target="_blank">OK</a>
-    			<a href="https://ja.wikipedia.org/wiki/%E5%A4%8F%E7%9B%AE%E6%BC%B1%E7%9F%B3" target="_blank">夏目漱石</a>
-    		</div>
-    	</div>
-    	<!-- /.container -->
-
-    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+				<h2 id="list">動物リスト</h2>
+    			<ul class="list-group">
+    				<li class="list-group-item">ねこ</li>
+    				<li class="list-group-item">いぬ</li>
+    				<li class="list-group-item">うさぎ</li>
+    			</ul>
+    			<a class="btn btn-primary" href="#">OK</a>
+            	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+            	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+            </div>
+        </div>
     </body>
 </html>
