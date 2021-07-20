@@ -14,5 +14,6 @@ p {
   font-size:20px;
   
   /* 文字の種類を"Lucida Grande"にしてください */
-  font:"Lucida Grande" 
+  font-family:"Lucida Grande"
+  
 }
