@@ -24,28 +24,35 @@ li {
 }
 
 .main {
-  /* background-colorの指定を消してください */
-  /* heightの指定を消してください */
-  /* 上下のpaddingを100px、左右のpaddingを80pxにしてください */
-  padding-top:100px;  
-  padding-bottom:100px;
-  padding-right:80px;
-  padding-left:80px;
+  padding: 100px 80px;
 }
 
-/* copy-containerの中のh1のfont-sizeを指定してください */
-.copy-container h1{
-  font-size:140px;
+.copy-container h1 {
+  font-size: 140px;
 }
 
-/* copy-containerの中のh2のfont-sizeを指定してください */
-.copy-container h2{
-  font-size:60px;
+.copy-container h2 {
+  font-size: 60px;
 }
 
-/* copy-containerの中のspanの色を指定してください */
-span{
-  color:#ff4a4a;
+.copy-container span {
+  color: #ff4a4a;
+}
+
+/* contentsのheightを500pxにしてください */
+.contents{
+  height:500px
+}
+
+/* section-titleのborder-bottomを指定してください */
+.section-title {
+  border-bottom:2px solid #dee7ec;
+}
+
+/* contents-itemのfloatプロパティをleftにしてください */
+.contents-item{
+  float:left;
+  height:500px;
 }
 
 .footer {
